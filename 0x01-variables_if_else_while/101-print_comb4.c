@@ -24,8 +24,10 @@ putchar(c);
 putchar(d);
 putchar(e);
 if (c != 55 || d != 56 || e != 57)
+{
 putchar(44);
 putchar(32);
+}
 }
 e = e + 1;
 }
