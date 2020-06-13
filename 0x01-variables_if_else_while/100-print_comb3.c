@@ -20,8 +20,10 @@ if (c != d  && c < d)
 putchar(c);
 putchar(d);
 if (c != 56 || d != 57)
+{
 putchar(44);
 putchar(32);
+}
 }
 d = d + 1;
 }
