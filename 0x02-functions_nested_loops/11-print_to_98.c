@@ -4,7 +4,7 @@
 /**
   * print_to_98 - Escribe una función que imprima los numero desde n hasta 98
   * de forma acendente
-  * @b:integera
+  * @n:integera
   * Return: Always 0.
   */
 void print_to_98(int n)
@@ -13,18 +13,18 @@ void print_to_98(int n)
 		while (n <= 98)
 		{
 			if (n != 98)
-				printf("%d, ",n);
+				printf("%d, ", n);
 			else
-				printf("%d",n);
+				printf("%d", n);
 			n++;
 		}
 	else
 		while (n >= 98)
 		{
 			if (n != 98)
-				printf("%d, ",n);
+				printf("%d, ", n);
 			else
-				printf("%d",n);
+				printf("%d", n);
 			n--;
 		}
 	printf("\n");
