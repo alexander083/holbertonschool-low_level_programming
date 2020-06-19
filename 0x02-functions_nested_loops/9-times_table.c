@@ -7,13 +7,14 @@
 void times_table(void)
 {
 	int C = 0, F;
-	
+
 	while (C <= 9)
 	{
 		F = 0;
 		while (F <= 9)
 		{
 			int X = C * F;
+
 			if (X < 10)
 			{
 				if (F > 0)
@@ -29,7 +30,7 @@ void times_table(void)
 				_putchar (X / 10 + '0');
 				_putchar (X % 10 + '0');
 			}
-			if(F != 9)
+			if (F != 9)
 				_putchar (',');
 			F++;
 		}
