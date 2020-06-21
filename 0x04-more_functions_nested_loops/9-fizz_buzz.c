@@ -7,8 +7,6 @@
  * Return: Always 0.
  */
 
-
-
 int main(void)
 {
 	int N = 1;
@@ -28,5 +26,5 @@ int main(void)
 		N++;
 	}
 	printf("\n");
-	return (0);
+	return (1);
 }
