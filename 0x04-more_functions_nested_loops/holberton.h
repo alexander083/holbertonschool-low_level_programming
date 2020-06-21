@@ -1,0 +1,11 @@
+int _putchar(char c);
+int _isupper(char c);
+int _isdigit(char c);
+int mul(int a,int b);
+void print_numbers();
+void print_most_numbers();
+void more_numbers();
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int HB);
+void print_triangle(int T);
