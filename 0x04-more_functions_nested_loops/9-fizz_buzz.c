@@ -20,11 +20,14 @@ int main(void)
 				printf("Fizz ");
 			else
 				if (N % 5 == 0)
-					printf("Buzz ");
+					if (N != 100)
+						printf("Buzz ");
+					else
+						printf("Buzz");
 				else
 					printf("%d ", N);
 		N++;
 	}
 	printf("\n");
-	return (1);
+	return (0);
 }
