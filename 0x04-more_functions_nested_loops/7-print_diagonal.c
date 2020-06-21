@@ -13,7 +13,7 @@ void print_diagonal(int n)
 		I2 = 0;
 		while (n > I2)
 		{
-			if(I2 != 0)
+			if (I2 != 0)
 				_putchar (32);
 			if (I1 == I2)
 			{
