@@ -1,3 +1,4 @@
+#include "holberton.h"
 /**
   * mul - verifique el carácter en mayúsculas.
   *@a:interger
@@ -8,5 +9,5 @@ int mul(int a, int b)
 {
 	int result = a * b;
 
-	return(result);
+	return (result);
 }
